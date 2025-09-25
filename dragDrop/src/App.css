@@ -1,0 +1,113 @@
+
+.app-container {
+  font-family: Arial, sans-serif;
+  padding: 10px;
+  background: #f8f8f8;
+  min-height: 100vh;
+}
+
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.titlu {
+  font-size: 2rem;
+  color: #333;
+  font-weight: bold;
+}
+
+.win-message {
+  padding: 10px 20px;
+  background: #4caf50;
+  color: white;
+  font-weight: bold;
+  border-radius: 6px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.restart-button {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  padding: 8px 12px;
+  background: red;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.restart-button:hover {
+  background: #ff1744;
+}
+
+.game-layout {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+
+.crafting-area {
+  flex: 2;
+  min-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+.gatit {
+  display: flex;
+  gap: 20px;
+}
+
+.side-area {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.garbage-container {
+  width: 100px;
+  height: 120px;
+  border: 2px dashed #bbb;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: #f9f9f9;
+  transition: background 0.3s, border-color 0.3s;
+  cursor: pointer;
+}
+
+.garbage-container:hover {
+  background: #ffe6e6;
+  border-color: #ff4d4d;
+}
+
+.garbage-icon {
+  font-size: 28px;
+  color: #bbb;
+  transition: color 0.3s;
+}
+
+.garbage-container:hover .garbage-icon {
+  color: #ff4d4d;
+}
+
+.garbage-text {
+  font-size: 14px;
+  color: #555;
+  text-align: center;
+}

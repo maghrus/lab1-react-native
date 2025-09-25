@@ -1,0 +1,189 @@
+[
+  {
+    "id": "flour",
+    "name": "Făină",
+    "description": "Făină obţinută din grâu — bază pentru aluaturi şi prăjituri.",
+    "image": "/images/flour.png",
+    "pattern": [
+      [null, null, null],
+      [null, "wheat", null],
+      [null, null, null]
+    ]
+  },
+  {
+    "id": "dough",
+    "name": "Aluat",
+    "description": "Aluat simplu făcut din făină şi apă, folosit la pâine şi pizza.",
+    "image": "/images/dough.png",
+    "pattern": [
+      [null, null, null],
+      [null, "flour", "water"],
+      [null, null, null]
+    ]
+  },
+  {
+    "id": "cookedRice",
+    "name": "Orez fiert",
+    "description": "Orez fiert — garnitură simplă şi gustoasă.",
+    "image": "/images/boiledRice.png",
+    "pattern": [
+      [null, null, null],
+      [null, "rice", null],
+      [null, "water", null]
+    ]
+  },
+  {
+    "id": "cookedFish",
+    "name": "Pește prăjit",
+    "description": "Pește gătit cu sare — preparat principal rapid.",
+    "image": "/images/bakedFish.png",
+    "pattern": [
+      [null, null, null],
+      [null, "fish", null],
+      [null, "salt", null]
+    ]
+  },
+  {
+    "id": "tomatoSauce",
+    "name": "Sos de roșii",
+    "description": "Sos din roşii, ideal pentru paste şi pizza.",
+    "image": "/images/tomatoSauce.png",
+    "pattern": [
+      ["tomato", "tomato", null],
+      [null, "water", null],
+      [null, null, null]
+    ]
+  },
+  {
+    "id": "choco",
+    "name": "Ciocolată",
+    "description": "Ciocolată preparată din cacao şi zahăr, folosită la deserturi.",
+    "image": "/images/choco",
+    "pattern": [
+      [null, "cocoa", null],
+      [null, "sugar", null],
+      [null, "milk", null]
+    ]
+  },
+  {
+    "id": "rawPasta",
+    "name": "Paste crude",
+    "description": "Aluat pentru paste (făină + ou), gata pentru fiert.",
+    "image": "/images/pastaUncooked",
+    "pattern": [
+      [null, null, null],
+      ["flour", "egg", null],
+      [null, null, null]
+    ]
+  },
+  {
+    "id": "cream",
+    "name": "Cremă",
+    "description": "Cremă dulce făcută din lapte şi zahăr, pentru deserturi.",
+    "image": "/images/cream",
+    "pattern": [
+      [null, null, null],
+      [null, "milk", "sugar"],
+      [null, null, null]
+    ]
+  },
+  {
+    "id": "bread",
+    "name": "Pâine",
+    "description": "Pâine coaptă, realizată din aluat.",
+    "image": "/images/bread.png",
+    "pattern": [
+      [null, null, null],
+      [null, "dough", null],
+      [null, null, null]
+    ]
+  },
+  {
+    "id": "pasta",
+    "name": "Paste cu sos de roșii",
+    "description": "Paste servite cu sos de roşii — fel principal clasic.",
+    "image": "/images/pasta",
+    "pattern": [
+      [null, null, null],
+      ["rawPasta", "tomatoSauce", null],
+      [null, null, null]
+    ]
+  },
+  {
+    "id": "pizza",
+    "name": "Pizza",
+    "description": "Pizza cu blat din aluat, sos de roşii şi caşcaval.",
+    "image": "/images/pizza.png",
+    "pattern": [
+      [null, "tomatoSauce", null],
+      [null, "dough", "cheese"],
+      [null, null, null]
+    ]
+  },
+  {
+    "id": "sushi",
+    "name": "Sushi Roll",
+    "description": "Ruladă simplă de sushi: orez fiert şi peşte.",
+    "image": "/images/sushiRoll.png",
+    "pattern": [
+      [null, "cookedRice", null],
+      [null, "fish", null],
+      [null, null, null]
+    ]
+  },
+  {
+    "id": "biscuit",
+    "name": "Biscuit",
+    "description": "Biscuit crocant din făină, zahăr şi ou.",
+    "image": "/images/biscuit.png",
+    "pattern": [
+      ["flour", "sugar", null],
+      [null, "egg", null],
+      [null, null, null]
+    ]
+  },
+  {
+    "id": "tiramisu",
+    "name": "Tiramisu",
+    "description": "Desert cremos combinând cremă, biscuiţi şi cacao.",
+    "image": "/images/tiramisu.png",
+    "pattern": [
+      [null, "biscuit", null],
+      [null, "cream", null],
+      [null, "cocoa", null]
+    ]
+  },
+  {
+    "id": "salad",
+    "name": "Salată",
+    "description": "Salată simplă cu roşii, caşcaval şi condimente.",
+    "image": "/images/salad.png",
+    "pattern": [
+      ["tomato", null, null],
+      [null, "cheese", null],
+      [null, "salt", "pepper"]
+    ]
+  },
+  {
+    "id": "soup",
+    "name": "Supă de pește",
+    "description": "Supă fierbinte cu peşte şi roşii.",
+    "image": "/images/fishSoup.png",
+    "pattern": [
+      ["tomato", null, null],
+      [null, "fish", "water"],
+      [null, null, null]
+    ]
+  },
+  {
+    "id": "hotChoco",
+    "name": "Ciocolată caldă",
+    "description": "Băutură caldă din lapte, ciocolată şi zahăr.",
+    "image": "/images/hotChoco.png",
+    "pattern": [
+      [null, "choco", null],
+      [null, "milk", "sugar"],
+      [null, null, null]
+    ]
+  }
+]

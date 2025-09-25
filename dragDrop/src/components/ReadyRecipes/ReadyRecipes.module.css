@@ -1,0 +1,45 @@
+.wrapper {
+  padding: 16px;
+  background: #fefefe;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  margin-top: 20px;
+}
+
+h2 {
+  font-size: 1.4rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.empty {
+  font-size: 1rem;
+  color: #777;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.recipeCard {
+  background: #fff;
+  border-radius: 8px;
+  padding: 8px;
+  text-align: center;
+  width: 120px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+}
+
+.icon {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+  margin-bottom: 6px;
+}
+
+.label {
+  font-size: 1rem;
+  font-weight: 500;
+}

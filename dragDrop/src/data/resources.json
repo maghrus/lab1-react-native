@@ -1,0 +1,62 @@
+[
+    {
+        "id": "water",
+        "name": "Apă",
+        "image": "/images/glassWater.webp"
+    },
+    {
+        "id": "wheat",
+        "name": "Grâu",
+        "image": "/images/wheat.png"
+    },
+    {
+        "id": "egg",
+        "name": "Ou",
+        "image": "/images/egg.png"
+    },
+    {
+        "id": "sugar",
+        "name": "Zahăr",
+        "image": "/images/sugar.webp"
+    },
+    {
+        "id": "tomato",
+        "name": "Roșie",
+        "image": "/images/tomato.png"
+    },
+    {
+        "id": "cocoa",
+        "name": "Cocoa",
+        "image": "/images/cacao.png"
+    },
+    {
+        "id": "cheese",
+        "name": "Cașcaval",
+        "image": "/images/cheese.png"
+    },
+    {
+        "id": "milk",
+        "name": "Lapte",
+        "image": "/images/milk.png"
+    },
+    {
+        "id": "salt",
+        "name": "Sare",
+        "image": "/images/salt.png"
+    },
+    {
+        "id": "pepper",
+        "name": "Piper",
+        "image": "/images/pepper.jpg"
+    },
+    {
+        "id": "rice",
+        "name": "Orez",
+        "image": "/images/rice.png"
+    },
+    {
+        "id": "fish",
+        "name": "Pește",
+        "image": "/images/fish.png"
+    }            
+]
